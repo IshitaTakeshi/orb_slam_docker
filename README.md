@@ -3,5 +3,5 @@
 ## Build the image
 
 ```
-docker build .
+docker build -t orbslam .
 ```
