@@ -48,7 +48,6 @@ RUN git clone https://github.com/stevenlovegrove/Pangolin.git && \
 # install ORB-SLAM
 RUN git clone https://github.com/IshitaTakeshi/ORB_SLAM2.git \
     && cd ORB_SLAM2/ \
-    && git checkout refactor \
     && ./build.sh
 
 WORKDIR $WORKSPACE/ORB_SLAM2
